@@ -1,0 +1,16 @@
+<ul class="semesters">
+  {% assign url_prefix = site.url_prefix %}
+  {% if site.semester == "Fall 2022" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall22">Fall 2022</a></li>
+  {% if site.semester == "Summer 2022" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/summer22">Summer 2022</a></li>
+  {% if site.semester == "Spring 2022" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/spring22">Spring 2022</a></li>
+  {% if site.semester == "Fall 2021" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall21">Fall 2021</a></li>
+  {% if site.semester == "Spring 2021" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/spring21">Spring 2021</a></li>
+  {% if site.semester == "Fall 2020" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall20">Fall 2020</a></li>
+  {% if site.semester == "Spring 2020" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/spring20">Spring 2020</a></li>
+  {% if site.semester == "Fall 2019" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall19">Fall 2019</a></li> 
+  {% if site.semester == "Spring 2019" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/spring19">Spring 2019</a></li> 
+  {% if site.semester == "Fall 2018" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall18">Fall 2018</a></li> 
+  {% if site.semester == "Summer 2018" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/summer18">Summer 2018</a></li> 
+  {% if site.semester == "Spring 2018" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/spring18">Spring 2018</a></li> 
+  {% if site.semester == "Fall 2017" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall17">Fall 2017</a></li>
+</ul>

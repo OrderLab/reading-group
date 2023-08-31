@@ -1,0 +1,13 @@
+semester: "Fall 2023"
+title: "OrderLab Reading Group"
+desc: "OrderLab Reading Group"
+date_time: "Tuesdays 10:00am-11:30am"
+location: "4941 BBB"
+coordinator: "Yuzhuo Jing"
+url_prefix: "https://orderlab.github.io/reading-group"
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
