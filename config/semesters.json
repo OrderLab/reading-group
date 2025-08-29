@@ -1,0 +1,22 @@
+[
+  {"id": "fall25", "name": "Fall 2025"},
+  {"id": "summer25", "name": "Summer 2025"},
+  {"id": "winter25", "name": "Winter 2025"},
+  {"id": "fall24", "name": "Fall 2024"},
+  {"id": "summer24", "name": "Summer 2024"},
+  {"id": "winter24", "name": "Winter 2024"},
+  {"id": "fall23", "name": "Fall 2023"},
+  {"id": "fall22", "name": "Fall 2022"},
+  {"id": "summer22", "name": "Summer 2022"},
+  {"id": "spring22", "name": "Spring 2022"},
+  {"id": "fall21", "name": "Fall 2021"},
+  {"id": "spring21", "name": "Spring 2021"},
+  {"id": "fall20", "name": "Fall 2020"},
+  {"id": "spring20", "name": "Spring 2020"},
+  {"id": "fall19", "name": "Fall 2019"},
+  {"id": "spring19", "name": "Spring 2019"},
+  {"id": "fall18", "name": "Fall 2018"},
+  {"id": "summer18", "name": "Summer 2018"},
+  {"id": "spring18", "name": "Spring 2018"},
+  {"id": "fall17", "name": "Fall 2017"}
+]
