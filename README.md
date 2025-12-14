@@ -1,5 +1,8 @@
 # OrderLab Reading Group Website
 
+[https://orderlab.io/reading-groups](https://orderlab.io/reading-groups)
+
+
 ## Local Development Environment
 This website is built with [Jekyll](https://jekyllrb.com/). Install Jekyll on
 your local machine:
@@ -40,6 +43,7 @@ For a project presentation or knowledge sharing:
     title: "Project Progress Sharing"
 ```
 
+
 ## Adding a New Semester
 
 1. Create a new semester file by copying the previous one:
@@ -47,7 +51,7 @@ For a project presentation or knowledge sharing:
 cp semesters/fall25.md semesters/spring26.md
 ```
 
-2. Edit `semesters/spring26.md` and update the front matter:
+2. Edit `semesters/spring26.md` and update the front matter and description:
 ```yaml
 ---
 layout: semester
@@ -62,6 +66,9 @@ sessions:
     presenter: "Someone"
     title: "Semester Kickoff"
 ---
+
+# Description
+(The description text will be copied from the previous semester - edit as needed)
 ```
 
 3. Update `_config.yml` to add the new semester and mark it as current:
@@ -80,5 +87,7 @@ semesters:
 
 The new semester will automatically appear in the navigation of all pages.
 
+
 ## Deployment
+
 Commite and push all your changes to the main branch on GitHub.
