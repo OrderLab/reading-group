@@ -1,0 +1,89 @@
+---
+layout: semester
+semester_id: spring19
+semester: "Spring 2019"
+time: "Fridays 1-2:15pm, Malone 338"
+coordinator: "None"
+permalink: /spring19/
+
+sessions:
+  - date: "02/08/2019"
+    presenter: "Yigong Hu"
+    title: "The FuzzyLog: A Partially Ordered Shared Log"
+    authors: "Joshua Lockerman, Yale University; Jose M. Faleiro, UC Berkeley; Juno Kim, UC San Diego; Soham Sankaran, Cornell University; Daniel J. Abadi, University of Maryland, College Park; James Aspnes, Yale University; Siddhartha Sen, Microsoft Research; Mahesh Balakrishnan, Yale University / Facebook"
+    venue: "OSDI '18"
+    link: "https://www.usenix.org/system/files/osdi18-lockerman.pdf"
+
+  - date: "02/22/2019"
+    presenter: "Chang Lou"
+    title: "An Analysis of Network-Partitioning Failures in Cloud Systems"
+    authors: "Ahmed Alquraan, Hatem Takruri, Mohammed Alfatafta, and Samer Al-Kiswany, University of Waterloo"
+    venue: "OSDI '18"
+    link: "https://www.usenix.org/system/files/osdi18-alquraan.pdf"
+
+  - date: "03/01/2019"
+    presenter: "Brian Choi"
+    title: "Write-Optimized and High-Performance Hashing Index Scheme for Persistent Memory"
+    authors: "Pengfei Zuo, Yu Hua, and Jie Wu, Huazhong University of Science and Technology"
+    venue: "OSDI '18"
+    link: "https://www.usenix.org/system/files/osdi18-zuo.pdf"
+
+  - date: "03/15/2019"
+    presenter: "Shiwei Weng"
+    title: "DETER: Deterministic TCP Replay for Performance Diagnosis"
+    authors: "Yuliang Li, Harvard University; Rui Miao, Alibaba Group; Mohammad Alizadeh, Massachusetts Institute of Technology; Minlan Yu, Harvard University"
+    venue: "NSDI '19"
+    link: "https://www.usenix.org/system/files/nsdi19-li-yuliang.pdf"
+
+  - date: "03/29/2019"
+    presenter: "Yigong Hu"
+    title: "Verifying Systems Rules Using Rule-Directed Symbolic Execution"
+    authors: "Heming Cui, Gang Hu, Jingyue Wu, and Junfeng Yang, Columbia University"
+    venue: "ASPLOS '13"
+    link: "http://www.cs.columbia.edu/~junfeng/papers/woodpecker-asplos13.pdf"
+
+  - date: "04/05/2019"
+    presenter: "Ziyan Wang"
+    title: "Confluo: Distributed Monitoring and Diagnosis Stack for High-speed Networks"
+    authors: "Anurag Khandelwal, UC Berkeley; Rachit Agarwal, Cornell University; Ion Stoica, UC Berkeley"
+    venue: "NSDI '19"
+    link: "https://www.usenix.org/system/files/nsdi19spring_khandelwal_prepub.pdf"
+
+  - date: "04/12/2019"
+    presenter: "Brian Choi"
+    title: "Reaping the performance of fast NVM storage with uDepot"
+    authors: "Kornilios Kourtis, Nikolas Ioannou, and Ioannis Koltsidas, IBM Research"
+    venue: "FAST '19"
+    link: "https://www.usenix.org/system/files/fast19-kourtis.pdf"
+
+  - date: "04/19/2019"
+    presenter: "Shiwei Weng"
+    title: "Pay Migration Tax to Homeland: Anchor-based Scalable Reference Counting for Multicores"
+    authors: "Seokyong Jung, Jongbin Kim, Minsoo Ryu, Sooyong Kang, and Hyungsoo Jung, Hanyang University"
+    venue: "FAST '19"
+    link: "https://www.usenix.org/system/files/fast19-jung.pdf"
+
+  - date: "04/26/2019"
+    presenter: "Yigong Hu"
+    title: "Wasabi: A Framework for Dynamically Analyzing WebAssembly"
+    authors: "Daniel Lehmann, Michael Pradel, TU Darmstadt"
+    venue: "ASPLOS '19"
+    link: "http://software-lab.org/publications/asplos2019_Wasabi.pdf"
+
+  - date: "05/03/2019"
+    presenter: "Chang Lou"
+    title: "ScaleCheck: A Single-Machine Approach for Discovering Scalability Bugs in Large Distributed Systems"
+    authors: "Cesar A. Stuardo, University of Chicago; Tanakorn Leesatapornwongsa, Samsung Research America; Riza O. Suminto, Huan Ke, and Jeffrey F. Lukman, University of Chicago; Wei-Chiu Chuang, Cloudera; Shan Lu and Haryadi S. Gunawi, University of Chicago"
+    venue: "FAST '19"
+    link: "https://www.usenix.org/system/files/fast19-stuardo.pdf"
+
+  - date: "05/09/2019"
+    presenter: "Chang Lou"
+    title: "Comprehensive and Efficient Runtime Checking in System Software through Watchdogs"
+    authors: "Chang Lou, Peng Huang, Scott Smith, Johns Hopkins University"
+    venue: "HotOS '19"
+    link: "https://www.cs.jhu.edu/~huang/paper/watchdog-hotos19-preprint.pdf"
+
+---
+
+<!-- This file is automatically processed by Jekyll. The content is defined in the YAML front matter above. -->

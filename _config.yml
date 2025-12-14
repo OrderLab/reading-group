@@ -1,0 +1,101 @@
+# Jekyll configuration for OrderLab Reading Group
+# GitHub Pages compatible
+
+title: "OrderLab Reading Group"
+description: "Reading group covering latest advances in computer systems research"
+baseurl: "/reading-group"
+url: "https://orderlab.io"
+
+# GitHub Pages settings
+plugins:
+  - jekyll-relative-links
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - README-JEKYLL.md
+  - MIGRATION-GUIDE.md
+  - POC-SUMMARY.md
+  - MIGRATION-COMPLETE.md
+  - migrate-semester.py
+  - Gemfile
+  - Gemfile.lock
+  - archive/
+
+# Current semester configuration
+current_semester: fall25
+
+# Semester metadata (ordered newest to oldest)
+semesters:
+  - id: fall25
+    name: "Fall 2025"
+    active: true
+  - id: summer25
+    name: "Summer 2025"
+    active: false
+  - id: winter25
+    name: "Winter 2025"
+    active: false
+  - id: fall24
+    name: "Fall 2024"
+    active: false
+  - id: summer24
+    name: "Summer 2024"
+    active: false
+  - id: winter24
+    name: "Winter 2024"
+    active: false
+  - id: fall23
+    name: "Fall 2023"
+    active: false
+  - id: fall22
+    name: "Fall 2022"
+    active: false
+  - id: summer22
+    name: "Summer 2022"
+    active: false
+  - id: spring22
+    name: "Spring 2022"
+    active: false
+  - id: fall21
+    name: "Fall 2021"
+    active: false
+  - id: spring21
+    name: "Spring 2021"
+    active: false
+  - id: fall20
+    name: "Fall 2020"
+    active: false
+  - id: spring20
+    name: "Spring 2020"
+    active: false
+  - id: fall19
+    name: "Fall 2019"
+    active: false
+  - id: spring19
+    name: "Spring 2019"
+    active: false
+  - id: fall18
+    name: "Fall 2018"
+    active: false
+  - id: summer18
+    name: "Summer 2018"
+    active: false
+  - id: spring18
+    name: "Spring 2018"
+    active: false
+  - id: fall17
+    name: "Fall 2017"
+    active: false
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "semester"
