@@ -71,23 +71,9 @@ sessions:
 (The description text will be copied from the previous semester - edit as needed)
 ```
 
-3. Update `_config.yml` to add the new semester and mark it as current:
-```yaml
-current_semester: spring26
-
-semesters:
-  - id: spring26
-    name: "Spring 2026"
-    active: true
-  - id: fall25
-    name: "Fall 2025"
-    active: false
-  # ... rest of the list
-```
-
 The new semester will automatically appear in the navigation of all pages.
 
 
 ## Deployment
 
-Commite and push all your changes to the main branch on GitHub.
+Commit and push all your changes to the main branch on GitHub.

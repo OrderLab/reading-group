@@ -17,7 +17,7 @@ sessions:
 
   - date: "01/20/2026"
     presenter: "Kevin Xue"
-    title: "Chigusa Prelim Practice Talk"
+    title: "Prelim Practice Talk"
 
   - date: "01/27/2026"
     presenter: "Yuxuan Jiang"

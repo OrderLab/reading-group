@@ -8,8 +8,6 @@ plugins:
 markdown: kramdown
 permalink: /:title/
 
-current_semester: fall25
-
 collections:
   semesters:
     output: true
