@@ -23,8 +23,8 @@ The above will show a server accessible by a localhost address.
 
 ## Adding New Group Meetings
 
-Edit the current semester file in `semesters/` (e.g., `semesters/fall25.md`) and
-add a new entry to the `sessions` list:
+Edit the current semester file in `_semesters/` (e.g., `_semesters/fall25.md`) and
+add a new entry to the `sessions` list in the file:
 
 For a paper presentation:
 ```yaml
@@ -48,10 +48,10 @@ For a project presentation or knowledge sharing:
 
 1. Create a new semester file by copying the previous one:
 ```bash
-cp semesters/fall25.md semesters/spring26.md
+cp _semesters/fall25.md _semesters/spring26.md
 ```
 
-2. Edit `semesters/spring26.md` and update the front matter and description:
+2. Edit `_semesters/spring26.md` and update the front matter and description:
 ```yaml
 ---
 layout: semester
