@@ -1,0 +1,29 @@
+title: "OrderLab Reading Group"
+baseurl: "/reading-group"
+url: "https://orderlab.io"
+
+plugins:
+  - jekyll-relative-links
+
+markdown: kramdown
+permalink: /:title/
+
+current_semester: fall25
+
+collections:
+  semesters:
+    output: true
+    permalink: /reading-group/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "semester"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - archive/

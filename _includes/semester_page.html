@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OrderLab Reading Group, {{ include.sem.semester }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="{{ site.baseurl }}/assets/favicon.ico">
+  <title>{{ include.sem.semester }}</title>
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-1">
+    </div>
+    <div class="col-9">
+      <h1>OrderLab Reading Group</h1>
+      <h2 class="semester">{{ include.sem.semester }}</h2>
+      <h3>{{ include.sem.time }}</h3>
+      <h4>Coordinator: {{ include.sem.coordinator }}</h4>
+    </div>
+    <div class="col-2">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-1">
+      <ul class="semesters">
+        {% assign all_sems = site.semesters | sort: "first_date" | reverse %}
+        {% for sem in all_sems %}
+          <li{% if sem.url == include.sem.url %} class="current_semester"{% endif %}>
+            <a href="{{ sem.url | relative_url }}">{{ sem.semester }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-9">
+      {{ include.sem.content }}
+
+      <h1>Schedule</h1>
+      <table class="table-bordered schedule">
+        <tr class="info">
+          <th class="date">Date</th>
+          <th class="presenter">Presenter</th>
+          <th class="title">Title</th>
+          <th class="conference">Conference</th>
+          <th class="material">Material</th>
+        </tr>
+
+        {% for session in include.sem.sessions %}
+        <tr>
+          <td>{{ session.date }}</td>
+          <td>{{ session.presenter }}</td>
+          <td>
+            <p class="title">{{ session.title }}</p>
+            {% if session.authors %}
+            <p class="authors">{{ session.authors }}</p>
+            {% endif %}
+          </td>
+          <td>{% if session.venue %}{{ session.venue }}{% endif %}</td>
+          <td>{% if session.link %}<a href="{{ session.link }}">Paper</a>{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </table>
+
+    </div>
+    <div class="col-2">
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+{% assign latest = site.semesters | sort: "first_date" | last %}
+{% include semester_page.html sem=latest %}
