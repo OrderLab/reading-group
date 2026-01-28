@@ -2,6 +2,7 @@
 layout: semester
 semester_id: fall23
 semester: "Fall 2023"
+first_date: 2023-09-05
 time: "Tuesdays 10:00am-11:30am, 4941 BBB"
 coordinator: "Yuzhuo Jing"
 permalink: /fall23/

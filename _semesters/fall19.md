@@ -2,6 +2,7 @@
 layout: semester
 semester_id: fall19
 semester: "Fall 2019"
+first_date: 2019-08-30
 time: "Fridays 1-2:15pm, Malone 338"
 coordinator: "None"
 permalink: /fall19/

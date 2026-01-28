@@ -2,6 +2,7 @@
 layout: semester
 semester_id: summer25
 semester: "Summer 2025"
+first_date: 2025-05-21
 time: "Wednesday 10:00am-11:30am, 4901 BBB"
 coordinator: "Yunchi Lu"
 permalink: /summer25/

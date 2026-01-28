@@ -2,6 +2,7 @@
 layout: semester
 semester_id: summer22
 semester: "Summer 2022"
+first_date: 2022-05-20
 time: "Fridays 1:30-2:30pm, Malone 338"
 coordinator: "None"
 permalink: /summer22/

@@ -2,6 +2,7 @@
 layout: semester
 semester_id: fall24
 semester: "Fall 2024"
+first_date: 2024-08-28
 time: "Wednesdays 2:00pm-3:30 pm, 3901 BBB"
 coordinator: "Wanning He"
 permalink: /fall24/

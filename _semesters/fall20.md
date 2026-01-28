@@ -2,6 +2,7 @@
 layout: semester
 semester_id: fall20
 semester: "Fall 2020"
+first_date: 2020-09-04
 time: "Fridays 10-11:30am, Zoom Meeting"
 coordinator: "None"
 permalink: /fall20/

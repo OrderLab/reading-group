@@ -2,6 +2,7 @@
 layout: semester
 semester_id: fall25
 semester: "Fall 2025"
+first_date: 2025-08-26
 time: "Thursdays 10:30 am - 12:00 pm, 4901 BBB"
 coordinator: "Kaiwen Xue"
 permalink: /fall25/

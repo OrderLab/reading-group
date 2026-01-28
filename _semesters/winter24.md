@@ -2,6 +2,7 @@
 layout: semester
 semester_id: winter24
 semester: "Winter 2024"
+first_date: 2024-01-04
 time: "Tuesdays 10:00am-11:30am, 4941 BBB"
 coordinator: "Yi Chen"
 permalink: /winter24/

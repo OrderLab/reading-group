@@ -2,6 +2,7 @@
 layout: semester
 semester_id: spring18
 semester: "Spring 2018"
+first_date: 2018-01-11
 time: "Fridays 1-2:15pm, Malone 338"
 coordinator: "None"
 permalink: /spring18/
