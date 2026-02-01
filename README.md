@@ -1,6 +1,6 @@
 # OrderLab Reading Group Website
 
-[https://orderlab.io/reading-groups](https://orderlab.io/reading-groups)
+[https://orderlab.io/reading-group](https://orderlab.io/reading-group)
 
 
 ## Local Development Environment
@@ -52,11 +52,14 @@ cp _semesters/fall25.md _semesters/spring26.md
 ```
 
 2. Edit `_semesters/spring26.md` and update the front matter and description:
+Note that all fields are necessary. The `first_date` field allows sorting of the
+navigation bar such that the latest semester will appear first.
 ```yaml
 ---
 layout: semester
 semester_id: spring26
 semester: "Spring 2026"
+first_date: "01/15/2026"
 time: "Your meeting time and location"
 coordinator: "Coordinator Name"
 permalink: /spring26/
