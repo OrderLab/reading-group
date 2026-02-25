@@ -25,6 +25,32 @@ sessions:
     authors: "In Gim, Zhiyao Ma, Seung-seob Lee, and Lin Zhong"
     venue: "SOSP '25"
     link: https://dl.acm.org/doi/10.1145/3731569.3764814
+
+  - date: "02/03/2026"
+    presenter: "Kevin Xue"
+    title: "Knowledge Sharing: Hybrid LLMs"
+
+  - date: "02/10/2026"
+    presenter: "Wanning He"
+    title: "CortenMM: Efficient Memory Management with Strong Correctness Guarantees"
+    authors: "Junyang Zhang, Xiangcan Xu, Yonghao Zou, Zhe Tang, Xinyi Wan, Kang Hu, Siyuan Wang, Wenbo Xu, Di Wang, Hao Chen, Lin Huang, Shoumeng Yan, Yuval Tamir, Yingwei Luo, Xiaolin Wang, Huashan Yu, Zhenlin Wang, Hongliang Tian, and Diyu Zhou"
+    venue: "SOSP '25"
+    link: https://dl.acm.org/doi/10.1145/3731569.3764836
+
+  - date: "02/17/2026"
+    presenter: "Yunchi Lu"
+    title: "PipeThreader: Software-Defined Pipelining for Efficient DNN Execution"
+    authors: "Yu Cheng, Lei Wang, Yining Shi, Yuqing Xia, Lingxiao Ma, Jilong Xue, Yang Wang, Zhiwen Mo, Feiyang Chen, Fan Yang, Mao Yang, and Zhi Yang"
+    venue: "OSDI '25"
+    link: https://www.usenix.org/conference/osdi25/presentation/cheng
+
+  - date: "02/25/2026"
+    presenter: "Yi Chen"
+    title: "How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service"
+    authors: "Jingkai He, Yunpeng Dong, Dong Du, Mo Zou, Zhitai Yu, Yuxin Ren, Ning Jia, Yubin Xia, and Haibo Chen."
+    venue: "SOSP '25"
+    link: https://dl.acm.org/doi/10.1145/3731569.3764800
+
 ---
 
 # Description
