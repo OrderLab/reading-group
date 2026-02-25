@@ -44,7 +44,7 @@ sessions:
     venue: "OSDI '25"
     link: https://www.usenix.org/conference/osdi25/presentation/cheng
 
-  - date: "02/25/2026"
+  - date: "02/24/2026"
     presenter: "Yi Chen"
     title: "How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service"
     authors: "Jingkai He, Yunpeng Dong, Dong Du, Mo Zou, Zhitai Yu, Yuxin Ren, Ning Jia, Yubin Xia, and Haibo Chen."
