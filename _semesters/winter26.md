@@ -51,6 +51,19 @@ sessions:
     venue: "SOSP '25"
     link: https://dl.acm.org/doi/10.1145/3731569.3764800
 
+  - date: "04/07/2026"
+    presenter: "Ziming Zhou"
+    title: "Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs"
+    authors: "Pedro F. Silvestre and Peter Pietzuch"
+    venue: "SOSP '25"
+    link: https://dl.acm.org/doi/10.1145/3731569.3764840
+
+  - date: "04/14/2026"
+    presenter: "Wanning He"
+    title: "Sharpen the Spec, Cut the Code: A Case for Generative File System with SYSSPEC"
+    authors: "Qingyuan Liu, Mo Zou, Hengbin Zhang, Dong Du, Yubin Xia, and Haibo Chen"
+    venue: "FAST '26"
+    link: https://www.usenix.org/conference/fast26/presentation/liu-qingyuan
 ---
 
 # Description
