@@ -64,6 +64,14 @@ sessions:
     authors: "Qingyuan Liu, Mo Zou, Hengbin Zhang, Dong Du, Yubin Xia, and Haibo Chen"
     venue: "FAST '26"
     link: https://www.usenix.org/conference/fast26/presentation/liu-qingyuan
+
+  - date: "04/21/2026"
+    presenter: "Kaiwen Xue"
+    title: "Jenga: Effective Memory Management for Serving LLM with Heterogeneity"
+    authors: "Chen Zhang, Kuntai Du, Shu Liu, Woosuk Kwon, Xiangxi Mo, Yufeng Wang, Xiaoxuan Liu, Kaichao You, Zhuohan Li, Mingsheng Long, Jidong Zhai, Joseph Gonzalez, Ion Stoica"
+    authors: "Qingyuan Liu, Mo Zou, Hengbin Zhang, Dong Du, Yubin Xia, and Haibo Chen"
+    venue: "SOSP '25"
+    link: https://dl.acm.org/doi/10.1145/3731569.3764823
 ---
 
 # Description
