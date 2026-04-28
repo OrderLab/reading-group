@@ -71,6 +71,13 @@ sessions:
     authors: "Chen Zhang, Kuntai Du, Shu Liu, Woosuk Kwon, Xiangxi Mo, Yufeng Wang, Xiaoxuan Liu, Kaichao You, Zhuohan Li, Mingsheng Long, Jidong Zhai, Joseph Gonzalez, Ion Stoica"
     venue: "SOSP '25"
     link: https://dl.acm.org/doi/10.1145/3731569.3764823
+
+  - date: "04/28/2026"
+    presenter: "Yi Chen"
+    title: "Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems"
+    authors: "Seung-seob Lee, Jachym Putta, Ziming Mao, and Anurag Khandelwal"
+    venue: "SOSP '25"
+    link: "https://dl.acm.org/doi/10.1145/3731569.3764805"
 ---
 
 # Description
