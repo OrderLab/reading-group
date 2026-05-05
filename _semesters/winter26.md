@@ -77,14 +77,14 @@ sessions:
     title: "Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems"
     authors: "Seung-seob Lee, Jachym Putta, Ziming Mao, and Anurag Khandelwal"
     venue: "SOSP '25"
-    link: https://dl.acm.org/doi/10.1145/3731569.3764805
+    link: "https://dl.acm.org/doi/10.1145/3731569.3764805"
 
- - date: "05/05/2026"
-   presenter: "Yunchi Lu"
-   title: "DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism"
-   authors: "Chenyu Jiang, Zhenkun Cai, Ye Tian, Zhen Jia, Yida Wang, Chuan Wu"
-   venue: "SOSP '25"
-   link: https://dl.acm.org/doi/10.1145/3731569.3764849
+  - date: "05/05/2026"
+    presenter: "Yunchi Lu"
+    title: "DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism"
+    authors: "Chenyu Jiang, Zhenkun Cai, Ye Tian, Zhen Jia, Yida Wang, Chuan Wu"
+    venue: "SOSP '25"
+    link: "https://dl.acm.org/doi/10.1145/3731569.3764849"
 ---
 
 # Description
