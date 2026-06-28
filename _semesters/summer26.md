@@ -3,7 +3,7 @@ layout: semester
 semester_id: summer26
 semester: "Summer 2026"
 first_date: 2026-05-12
-time: "Tuesdays 3:00pm – 4:30pm, 4941 BBB"
+time: "Wednesdays 10:30am – 12:00pm, 4941 BBB"
 coordinator: "Yi Chen"
 permalink: /summer26/
 
@@ -21,6 +21,41 @@ sessions:
     authors: "Chenyuan Yang, University of Illinois at Urbana-Champaign; Xuheng Li, Columbia University; MD Rakib Hossain Misu, University of California Irvine; Jianan Yao, University of Toronto; Weidong Cui, Microsoft Research; Yeyun Gong, Microsoft Research Asia; Chris Hawblitzel, Shuvendu Lahiri and Jacob R. Lorch, Microsoft Research; Shuai Lu and Fan Yang, Microsoft Research Asia; Ziqiao Zhou, Microsoft Research; Shan Lu, Microsoft Research and University of Chicago"
     venue: "OOPSLA '25"
     link: "https://dl.acm.org/doi/abs/10.1145/3763174"
+
+  - date: "05/26/2026"
+    presenter: "Yi Chen"
+    title: "FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference"
+    authors: "Bingyang Wu, Yinmin Zhong, Zili Zhang, Shengyu Liu, Fangyue Liu, Yuanhang Sun, Gang Huang, Xuanzhe Liu, and Xin Jin, School of Computer Science, Peking University"
+    venue: "NSDI '26"
+    link: "https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang"
+
+  - date: "06/03/2026"
+    presenter: "Yuxuan Jiang"
+    title: "Distributed Speculative Execution for Resilient Cloud Applications "
+    authors: "Tianyu Li, MIT CSAIL; Badrish Chandramouli and Philip A. Bernstein, Microsoft Research; Samuel Madden MIT CSAIL"
+    venue: "OSDI '26"
+    link: "https://www.usenix.org/conference/osdi26/presentation/li-tianyu"
+
+  - date: "06/17/2026"
+    presenter: "Ziming Zhou"
+    title: "OpGuard OSDI '25 Practice Talk"
+    authors: "Ziming Zhou and Yinjie Zhao, University of Michigan; Hang Zhu, Wenxiao Wang, Zhihao Bai, Yun Zhang, Shuguang Wang, and Haibin Lin, ByteDance Seed; Peng Huang, University of Michigan"
+    venue: "OSDI '26"
+    link: "https://www.usenix.org/conference/osdi26/presentation/zhou-ziming"
+
+  - date: "06/25/2026"
+    presenter: "Ziming Zhou"
+    title: "OpGuard OSDI '25 Practice Talk"
+    authors: "Ziming Zhou and Yinjie Zhao, University of Michigan; Hang Zhu, Wenxiao Wang, Zhihao Bai, Yun Zhang, Shuguang Wang, and Haibin Lin, ByteDance Seed; Peng Huang, University of Michigan"
+    venue: "OSDI '26"
+    link: "https://www.usenix.org/conference/osdi26/presentation/zhou-ziming"
+
+  - date: "07/01/2026"
+    presenter: "Yi Chen"
+    title: "JITServe: SLO-aware LLM Serving with Imprecise Request Information"
+    authors: "Wei Zhang, Zhiyu Wu, and Yi Mu, University of Illinois, Urbana-Champaign; Rui Ning, unaffiliated; Banruo Liu, University of Illinois Urbana-Champaign; Nikhil Sarda, Google; Myungjin Lee, Cisco Research; Fan Lai, University of Illinois Urbana-Champaign"
+    venue: "NSDI '26"
+    link: "https://www.usenix.org/conference/nsdi26/presentation/zhang-wei"
 
 ---
 
