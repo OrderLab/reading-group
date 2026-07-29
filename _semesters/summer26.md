@@ -57,6 +57,27 @@ sessions:
     venue: "NSDI '26"
     link: "https://www.usenix.org/conference/nsdi26/presentation/zhang-wei"
 
+  - date: "07/17/2026"
+    presenter: "Wanning He"
+    title: "Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms"
+    authors: "Gohar Irfan Chaudhry, MIT CSAIL; Esha Choukse, Haoran Qiu, Íñigo Goiri, and Rodrigo Fonseca, Microsoft Azure Research; Adam Belay, MIT CSAIL; Ricardo Bianchini, Microsoft Azure"
+    venue: "OSDI '26"
+    link: "https://www.usenix.org/conference/osdi26/presentation/chaudhry"
+
+  - date: "07/22/2026"
+    presenter: "Yuxuan Jiang"
+    title: "Controlling Opaque-Component Effects with Semisolates and Try"
+    authors: "Evangelos Lamprou, Brown University; Tianyu (Ezri) Zhu, Stevens Institute of Technology; Di Jin and Grigoris Ntousakis, Brown University; Georgios Liargkovas, Columbia University; Calvin Eng, Brown University; Konstantinos Kallas, University of California, Los Angeles; Michael Greenberg, Stevens Institute of Technology; Nikos Vasilakis, Brown University"
+    venue: "OSDI '26"
+    link: "https://www.usenix.org/conference/osdi26/presentation/lamprou"
+
+  - date: "07/29/2026"
+    presenter: "Yi Chen"
+    title: "Simple Is Better: Multiplication May Be All You Need for LLM Request Scheduling"
+    authors: "Dingyan Zhang, Jinbo Han, Kaixi Zhang, and Xingda Wei, Shanghai Jiao Tong University; Sijie Shen, Chenguang Fang, Wenyuan Yu, and Jingren Zhou, Alibaba Group; Rong Chen, Shanghai Jiao Tong University"
+    venue: "OSDI '26"
+    link: "https://www.usenix.org/conference/osdi26/presentation/zhang-dingyan"
+
 ---
 
 # Description
