@@ -78,6 +78,27 @@ sessions:
     venue: "OSDI '26"
     link: "https://www.usenix.org/conference/osdi26/presentation/zhang-dingyan"
 
+  - date: "08/05/2026"
+    presenter: "Wanning He"
+    title: "Agentic Concolic Execution"
+    authors: "Zhengxiong Luo, Huan Zhao, and Dylan Wolff, National University of Singapore; Cristian Cadar†, Imperial College London; Abhik Roychoudhury, National University of Singapore"
+    venue: "S&P '26"
+    link: "https://ieeexplore.ieee.org/document/11573412"
+
+  - date: "08/12/2026"
+    presenter: "Yuxuan Jiang"
+    title: "DynaRL: Flexible and Dynamic Scheduling of Large-Scale Reinforcement Learning Training"
+    authors: "Yuanqing Wang, Peking University and Infinigence AI; Hao Lin, Junhao Hu, Chunyang Zhu, Quanlu Zhang, and Zhen Guo, Infinigence AI; Yuchen Zhang, Institute of Computing Technology, Chinese Academy of Sciences and Infinigence AI; Xu Fu and Si Xu, Infinigence AI; Bo Dai, Beihang University and Infinigence AI; Zixiao Huang, Tsinghua University and Infinigence AI; Chao Yu, Tsinghua University; Boxun Li, Infinigence AI; Guohao Dai, Shanghai Jiao Tong University and Infinigence AI; Zhi Yang, Peking University; Yu Wang, Tsinghua University"
+    venue: "OSDI '26"
+    link: "https://www.usenix.org/conference/osdi26/presentation/wang-yuanqing"
+
+  - date: "08/19/2026"
+    presenter: "Yi Chen"
+    title: "Strata: Hierarchical Context Caching for Long Context Language Model Serving"
+    authors: "Zhiqiang Xie, Stanford University and NVIDIA; Ziyi Xu, Shanghai Jiao Tong University; Mark Zhao, University of Colorado Boulder; Yuwei An, Carnegie Mellon University; Vikram Sharma Mailthody, NVIDIA; Scott Mahlke, NVIDIA and University of Michigan; Michael Garland, NVIDIA; Christos Kozyrakis, NVIDIA and Stanford University"
+    venue: "OSDI '26"
+    link: "https://www.usenix.org/conference/osdi26/presentation/xie-zhiqiang"
+
 ---
 
 # Description
