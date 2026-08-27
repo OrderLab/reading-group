@@ -6,6 +6,7 @@ first_date: 2025-08-26
 time: "Thursdays 10:30 am - 12:00 pm, 4901 BBB"
 coordinator: "Kaiwen Xue"
 permalink: /fall25/
+sheet_tab: "Fall 2025"
 
 sessions:
   - date: "08/26/2025"

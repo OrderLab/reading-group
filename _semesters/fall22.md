@@ -6,6 +6,7 @@ first_date: 2022-09-02
 time: "Fridays 1:30-2:45pm, Malone 222"
 coordinator: "None"
 permalink: /fall22/
+sheet_tab: "Fall 2022"
 
 sessions:
   - date: "09/02/2022"

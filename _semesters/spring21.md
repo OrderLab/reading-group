@@ -6,6 +6,7 @@ first_date: 2021-01-29
 time: "Fridays 10-11:30am, Zoom Meeting"
 coordinator: "None"
 permalink: /spring21/
+sheet_tab: "Spring 2021"
 
 sessions:
   - date: "01/29/2021"

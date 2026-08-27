@@ -6,6 +6,7 @@ first_date: 2025-05-21
 time: "Wednesday 10:00am-11:30am, 4901 BBB"
 coordinator: "Yunchi Lu"
 permalink: /summer25/
+sheet_tab: "Summer 2025"
 
 sessions:
   - date: "05/21/2025"

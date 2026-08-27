@@ -6,6 +6,7 @@ first_date: 2020-09-04
 time: "Fridays 10-11:30am, Zoom Meeting"
 coordinator: "None"
 permalink: /fall20/
+sheet_tab: "Fall 2020"
 
 sessions:
   - date: "09/04/2020"

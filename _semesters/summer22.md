@@ -6,6 +6,7 @@ first_date: 2022-05-20
 time: "Fridays 1:30-2:30pm, Malone 338"
 coordinator: "None"
 permalink: /summer22/
+sheet_tab: "Summer 2022"
 
 sessions:
   - date: "05/20/2022"

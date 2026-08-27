@@ -6,6 +6,7 @@ first_date: 2022-02-04
 time: "Fridays 1:00-2:15pm, Malone 338"
 coordinator: "None"
 permalink: /spring22/
+sheet_tab: "Spring 2022"
 
 sessions:
   - date: "02/04/2022"

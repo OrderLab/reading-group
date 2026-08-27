@@ -6,6 +6,7 @@ first_date: 2024-08-28
 time: "Wednesdays 2:00pm-3:30 pm, 3901 BBB"
 coordinator: "Wanning He"
 permalink: /fall24/
+sheet_tab: "Fall 2024"
 
 sessions:
   - date: "08/28/2024"

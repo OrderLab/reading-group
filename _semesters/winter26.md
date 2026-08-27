@@ -6,6 +6,7 @@ first_date: 2026-01-13
 time: "Tuesdays 3:00pm – 4:30pm, 4901 BBB"
 coordinator: "Kevin Xue"
 permalink: /winter26/
+sheet_tab: "Winter 2026"
 
 sessions:
   - date: "01/13/2026"

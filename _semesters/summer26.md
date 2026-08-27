@@ -6,6 +6,7 @@ first_date: 2026-05-12
 time: "Wednesdays 10:30am – 12:00pm, 4941 BBB"
 coordinator: "Yi Chen"
 permalink: /summer26/
+sheet_tab: "Summer 2026"
 
 sessions:
   - date: "05/12/2026"

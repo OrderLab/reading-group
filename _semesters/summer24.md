@@ -6,6 +6,7 @@ first_date: 2024-05-07
 time: "Tuesdays 12:00pm-13:30pm, 4901 BBB"
 coordinator: "Yi Chen"
 permalink: /summer24/
+sheet_tab: "Summer 2024"
 
 sessions:
   - date: "05/07/2024"

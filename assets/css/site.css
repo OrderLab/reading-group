@@ -367,6 +367,29 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+.card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.schedule-live {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  padding: 0.3rem 0.7rem;
+  background: var(--surface-alt);
+  border-radius: 999px;
+}
+
+.schedule-live--on {
+  color: var(--accent-strong);
+  background: rgba(0, 166, 166, 0.12);
+}
+
 .card__title {
   margin: 0;
   font-size: 1.4rem;
@@ -512,6 +535,13 @@ a:hover {
 .cell-link svg {
   width: 0.95rem;
   height: 0.95rem;
+}
+
+.schedule-empty {
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+  padding: 1.6rem 0.8rem !important;
 }
 
 /* ---------- Footer ---------- */

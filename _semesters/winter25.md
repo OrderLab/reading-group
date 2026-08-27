@@ -6,6 +6,7 @@ first_date: 2025-01-16
 time: "Tuesdays 3:00pm – 4:30pm, 4941 BBB"
 coordinator: "Wanning He"
 permalink: /winter25/
+sheet_tab: "Winter 2025"
 
 sessions:
   - date: "01/16/2025"

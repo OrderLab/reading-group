@@ -54,18 +54,14 @@
             <h1 class="hero__title">OrderLab Reading Group</h1>
             <p class="hero__subtitle">{{ include.sem.semester }}</p>
             <div class="hero__meta">
-              {% if include.sem.time %}
-              <span class="hero__chip">
+              <span class="hero__chip" data-hero-time{% unless include.sem.time %} hidden{% endunless %}>
                 <svg class="hero__chip-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8Zm.5-13H11v6l5.2 3.1.8-1.3-4.5-2.7Z"/></svg>
-                {{ include.sem.time }}
+                <span data-hero-time-text>{{ include.sem.time }}</span>
               </span>
-              {% endif %}
-              {% if include.sem.coordinator %}
-              <span class="hero__chip">
+              <span class="hero__chip" data-hero-coordinator{% unless include.sem.coordinator %} hidden{% endunless %}>
                 <svg class="hero__chip-icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5Z"/></svg>
-                Coordinator: {{ include.sem.coordinator }}
+                Coordinator: <span data-hero-coordinator-text>{{ include.sem.coordinator }}</span>
               </span>
-              {% endif %}
             </div>
           </div>
         </section>
@@ -76,10 +72,17 @@
         </section>
         {% endif %}
 
+        {% assign sheet_id = include.sem.sheet_id | default: site.google_sheet_id %}
+        {% assign sheet_tab = include.sem.sheet_tab %}
+        {% assign sheet_gid = include.sem.sheet_gid %}
+        {% assign sheet_csv = include.sem.sheet_csv %}
         <section class="card card--schedule">
           <header class="card__header">
             <h2 class="card__title">Schedule</h2>
-            <span class="card__count">{{ include.sem.sessions | size }} sessions</span>
+            <div class="card__meta">
+              <span class="schedule-live" data-schedule-status hidden></span>
+              <span class="card__count" data-schedule-count>{{ include.sem.sessions | size }} sessions</span>
+            </div>
           </header>
           <div class="schedule-wrap">
             <table class="schedule">
@@ -92,7 +95,14 @@
                   <th class="col-material">Material</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody
+                data-schedule-sheet
+                data-semester-id="{{ include.sem.semester_id }}"
+                data-sheet-id="{{ sheet_id }}"
+                data-sheet-tab="{{ sheet_tab }}"
+                data-sheet-gid="{{ sheet_gid }}"
+                data-sheet-csv="{{ sheet_csv }}"
+              >
                 {% for session in include.sem.sessions %}
                 <tr>
                   <td class="col-date"><span class="cell-date">{{ session.date }}</span></td>
@@ -130,5 +140,6 @@
       <p><a href="https://orderlab.io/" target="_blank" rel="noopener">orderlab.io</a></p>
     </div>
   </footer>
+  <script src="{{ site.baseurl }}/assets/js/schedule.js"></script>
 </body>
 </html>

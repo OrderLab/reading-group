@@ -20,6 +20,12 @@ defaults:
     values:
       layout: "semester"
 
+# Live schedule source:
+# https://docs.google.com/spreadsheets/d/1BmhrnXLpXjCNOm4JTYM0elFYfnZs6FNbM3LZYieGm6w/edit
+# First row must be headers: date, presenter, title, authors, venue, link, publish
+# Use one tab per semester; set sheet_tab in that semester's markdown file.
+google_sheet_id: "1BmhrnXLpXjCNOm4JTYM0elFYfnZs6FNbM3LZYieGm6w"
+
 exclude:
   - README.md
   - Gemfile

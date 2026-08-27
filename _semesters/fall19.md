@@ -6,6 +6,7 @@ first_date: 2019-08-30
 time: "Fridays 1-2:15pm, Malone 338"
 coordinator: "None"
 permalink: /fall19/
+sheet_tab: "Fall 2019"
 
 sessions:
   - date: "08/30/2019"

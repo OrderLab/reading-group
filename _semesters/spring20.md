@@ -6,6 +6,7 @@ first_date: 2020-02-21
 time: "Fridays 1-2:15pm, Malone 338"
 coordinator: "None"
 permalink: /spring20/
+sheet_tab: "Spring 2020"
 
 sessions:
   - date: "02/21/2020"
