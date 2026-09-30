@@ -3,6 +3,7 @@ layout: semester
 semester_id: fall26
 semester: "Fall 2026"
 first_date: 2026-09-03
+time: "Thursday 10:30 AM–12:30 AM, 4941 BBB"
 coordinator: "Ziming Zhou"
 permalink: /fall26/
 
