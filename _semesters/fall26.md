@@ -23,6 +23,29 @@ sessions:
   - date: "09/24/2026"
     presenter: "Wanning He"
     title: "Wanning's project presentation"
+
+  - date: "10/01/2026"
+    presenter: "Ryan and everyone"
+    title: "Project pitch practice!"
+
+  - date: "10/08/2026"
+    presenter: "Kevin Xue"
+    title: "Kevin's project presentation"
+
+  - date: "10/15/2026"
+    presenter: "Ruiyan Hu"
+    title: "Ruiyan's project presentation"
+
+  - date: "10/22/2026"
+    presenter: "Yi Chen"
+
+  - date: "10/29/2026"
+    presenter: "Yuxuan Jiang"
+    title: "AdaptGuard"
+
+  - date: "11/05/2026"
+    presenter: "Yunchi Lu"
+    title: "Yunchi's project presentation"
 ---
 
 # Description
