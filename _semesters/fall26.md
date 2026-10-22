@@ -36,6 +36,9 @@ sessions:
     presenter: "Ruiyan Hu"
     title: "Ruiyan's project presentation"
 
+  - date: "10/22/2026"
+    presenter: "Yi Chen"
+
 ---
 
 # Description
