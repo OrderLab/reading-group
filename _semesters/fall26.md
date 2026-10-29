@@ -39,6 +39,10 @@ sessions:
   - date: "10/22/2026"
     presenter: "Yi Chen"
 
+  - date: "10/29/2026"
+    presenter: "Yuxuan Jiang"
+    title: "AdaptGuard"
+
 ---
 
 # Description
