@@ -43,6 +43,10 @@ sessions:
     presenter: "Yuxuan Jiang"
     title: "AdaptGuard"
 
+  - date: "11/05/2026"
+    presenter: "Yunchi Lu"
+    title: "Yunchi's project presentation"
+
 ---
 
 # Description
