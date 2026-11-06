@@ -41,7 +41,7 @@ sessions:
 
   - date: "10/29/2026"
     presenter: "Yuxuan Jiang"
-    title: "AdaptGuard"
+    title: "Yuxuan's project presentation"
 
   - date: "11/05/2026"
     presenter: "Yunchi Lu"
