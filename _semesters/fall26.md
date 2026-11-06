@@ -38,6 +38,7 @@ sessions:
 
   - date: "10/22/2026"
     presenter: "Yi Chen"
+    title: "Yi's project presentation"
 
   - date: "10/29/2026"
     presenter: "Yuxuan Jiang"
