@@ -48,6 +48,9 @@ sessions:
     presenter: "Yunchi Lu"
     title: "Yunchi's project presentation"
 
+  - date: "11/12/2026"
+    title: "Knowledge Share"
+
 ---
 
 # Description
