@@ -49,7 +49,8 @@ sessions:
     title: "Yunchi's project presentation"
 
   - date: "11/12/2026"
-    title: "Knowledge Share"
+    presenter: "Ryan and everyone"
+    title: "Group Discussion: How to use agents to build complex systems"
 
 ---
 
