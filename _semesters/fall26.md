@@ -52,6 +52,9 @@ sessions:
     presenter: "Ryan and everyone"
     title: "Group Discussion: How to use agents to build complex systems"
 
+  - date: "11/19/2026"
+    title: "Knowledge Share"
+
 ---
 
 # Description
